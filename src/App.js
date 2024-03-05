@@ -13,8 +13,19 @@ export default function App() {
       <br />
       <footer>
         This project was coded by{" "}
-        <a href="https://github.com/kianakermani">Kiana Kermani</a> and it is
-        <a href="https://github.com/kianakermani/react-dictionary-project">
+        <a
+          href="https://github.com/kianakermani"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Kiana Kermani
+        </a>{" "}
+        and it is
+        <a
+          href="https://github.com/kianakermani/react-dictionary-project"
+          target="_blank"
+          rel="noreferrer"
+        >
           open-sourced
         </a>
         .
