@@ -20,7 +20,7 @@ export default function App() {
         >
           Kiana Kermani
         </a>{" "}
-        and it is
+        and is{" "}
         <a
           href="https://github.com/kianakermani/react-dictionary-project"
           target="_blank"
