@@ -7,11 +7,11 @@ export default function Search() {
   let [res, setRes] = useState({});
 
   function handleResponse(r) {
-    console.log(r.data[0]);
     setRes(r.data[0]);
   }
 
   function handle(e) {
+    alert("Please wait...");
     e.preventDefault();
     let url = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
     axios.get(url).then(handleResponse);
@@ -24,6 +24,7 @@ export default function Search() {
     <div>
       <form onSubmit={handle}>
         <input type="Search" autoFocus={true} onChange={update} />
+        <input type="submit" value={"Search"} />
       </form>
       <Result result={res} />
     </div>
