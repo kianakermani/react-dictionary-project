@@ -1,0 +1,101 @@
+h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+section {
+  background: rgb(236, 225, 252);
+  padding: 30px;
+  border-radius: 6px;
+  margin: 20px 0;
+}
+
+.inp1 {
+  border-radius: 5px;
+  padding: 6px 10px;
+  color: rgb(84, 26, 139);
+  background-color: rgb(248, 236, 255);
+  width: 30%;
+  margin-right: 13px;
+}
+
+.bttn {
+  background-color: #a64cea;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+
+.bttn:hover {
+  color: black;
+}
+
+.Phonetic {
+  margin: 10px 0;
+}
+
+.Phonetic a {
+  border: 1px solid #ddd;
+  text-decoration: none;
+  padding: 8px 15px;
+  font-size: 14px;
+  margin-right: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+  transition: all 150ms ease-in-out;
+}
+
+.Phonetic a:hover {
+  background: #a64cea;
+  color: white;
+}
+
+.Phonetic .text {
+  margin-top: 15px;
+  opacity: 0.6;
+  font-weight: bold;
+}
+
+.Meaning h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.Meaning .example {
+  color: #70757a;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 780px) {
+  .inp1 {
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+}
