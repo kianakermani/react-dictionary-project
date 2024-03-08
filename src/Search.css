@@ -73,9 +73,10 @@ section {
 }
 
 .Phonetic .text {
-  margin-top: 15px;
+  margin-top: 10px;
   opacity: 0.6;
   font-weight: bold;
+  margin-left: 10px;
 }
 
 .Meaning h3 {
@@ -88,6 +89,12 @@ section {
   color: #70757a;
   font-style: italic;
   margin-top: 10px;
+}
+
+.Photos img {
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 780px) {
